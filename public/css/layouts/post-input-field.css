@@ -1,0 +1,32 @@
+.post-input-field-container {
+    padding: 10px 10px 0;
+}
+
+.post-field-form {
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px var(--black1);
+    display: block;
+    padding: 5px;
+}
+
+.post-field-form input[name="user-post"] {
+    height: 100%;
+    display: inline-block;
+    outline: none;
+    width: calc(100% - 90px - 10px);
+    border: none;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.post-button {
+    height: 40px;
+    float: right;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    background: var(--sea-blue);
+    color: var(--white1);
+    font-size: 15px;
+}
